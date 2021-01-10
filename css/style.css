@@ -1,0 +1,76 @@
+body {
+    position: relative;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+
+#navbar-example {
+    position: fixed;
+}
+
+.navbar {
+    background: #f1f2f6;
+}
+
+.nav-link {
+    color: blue;
+}
+
+.display-none {
+    display: none;
+}
+
+.services {
+    margin-bottom: 80px;
+}
+
+.pluses {
+    font-size: 20px;
+}
+
+.carousel-inner {
+    text-shadow: 1px 1px 2px black;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.pop-up  {
+    position: relative;
+    padding: 10px;
+    text-align: justify;
+}
+
+.pop-up-message {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 14px;
+    color: black; /*сбрасываем цвет, унаследованный от надписи*/
+    cursor: text;
+    position: absolute; /*абсолютное позиционирование*/
+    top: 20px; /*смещение блока по вертикали*/
+    left: 0px; /*смещение блока по горизонтали*/
+    border: #ee8090 2px solid;
+}
+
+.animated {
+    transition-property: display;
+    transition-duration: 3s;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar-nav {
+        display: none;
+    }
+}
