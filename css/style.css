@@ -16,10 +16,6 @@ body {
     color: blue;
 }
 
-.display-none {
-    display: none;
-}
-
 .services {
     margin-bottom: 80px;
 }
@@ -40,6 +36,7 @@ body {
     position: relative;
     padding: 10px;
     text-align: justify;
+    display: none;
 }
 
 .pop-up-message {
@@ -54,6 +51,10 @@ body {
     top: 20px; /*смещение блока по вертикали*/
     left: 0px; /*смещение блока по горизонтали*/
     border: #ee8090 2px solid;
+}
+
+.display-none {
+    display: none;
 }
 
 .animated {
