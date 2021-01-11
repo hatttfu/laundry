@@ -1,6 +1,7 @@
 body {
     position: relative;
     font-family: 'Balsamiq Sans', cursive;
+    overflow-x: hidden;
   }
 
 #navbar-example {
@@ -60,6 +61,15 @@ body {
     transition-duration: 3s;
 }
 
+.services img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about .row p {
+    cursor: pointer;
+}
+
+
 @media (max-width: 768px) {
     .carousel {
         display: none;
@@ -72,5 +82,28 @@ body {
     }
     .navbar-nav {
         display: none;
+    }
+}
+
+@media (max-width: 444px) {
+    .clock-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        text-align: center !important;
+    }
+
+    .circle {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #ee8090;
+        /* border: .5px solid #000; */
     }
 }
